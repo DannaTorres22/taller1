@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ejercicios JavaScript</title>
+    
+    <!-- icon-->
+    <link rel="apple-touch-icon" sizes="150x150" href="img/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+    
+
+    <!-- Funtes-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Niramit:wght@500&display=swap" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- estilos-->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+
+    <!-- contenedor -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Ejercicios <sup>JavaScript</sup></div>
+            </a>
+
+            <!-- Dividir -->
+            <hr class="sidebar-divider my-0">
+
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Ejercicios JavaScript</span></a>
+            </li>
+
+            <!-- Dividir -->
+            <hr class="sidebar-divider">
+
+    
+            <div class="sidebar-heading">
+                
+            </div>
+
+          <!-- Funciones de Texto -->
+            <li class="nav-item">
+                <a class="nav-link" href="ejercicio1.html">
+                  <i class="fa-sharp fa-solid fa-comment"></i>
+                    <span>Funciones de Texto</span></a>
+            </li>
+
+            <!--Conversor de Temperatura-->
+            <li class="nav-item">
+                <a class="nav-link" href="ejercicio2.html">
+                  <i class="fa-sharp fa-solid fa-temperature-three-quarters"></i>
+                    <span>Conversor de Temperatura</span></a>
+            </li>
+
+            <!-- Triangulo -->
+            <li class="nav-item">
+                <a class="nav-link" href="ejercicio3.html">
+                  <i class="fa-regular fa-triangle"></i>
+                    <span>Triangulo</span></a>
+            </li>
+             <!-- Instructores -->
+             <li class="nav-item">
+                <a class="nav-link" href="ejercicio4.html">
+                  <i class="fa-solid fa-user"></i>
+                    <span>Instructores</span></a>
+            </li>
+            <!-- Figuras -->
+            <li class="nav-item">
+                <a class="nav-link" href="ejercicio5.html">
+                  <i class="fa-solid fa-rectangle-wide"></i>
+                    <span>Figuras Geometricas</span></a>
+            </li>
+            <!-- Formulario -->
+            <li class="nav-item">
+              <a class="nav-link" href="ejercicio6.html">
+                <i class="fa-solid fa-rectangle-wide"></i>
+                  <span>Formulario</span></a>
+          </li>
+           <!-- Divider -->
+           <hr class="sidebar-divider">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                  <i class="fa-solid fa-leaf"></i>
+                    <span>Salir</span></a>
+            </li>
+
+        </ul>
+        <section class="carts">
+          <div class="container">
+            <h1>Nuestros usuarios dicen...</h1>
+        <div class="cards"> 
+
+            <div id="op" >
+                    <h5>Circulo</h5>
+                    <img src="img/circulo.png">
+                    <div class="description">                            
+                        <a id="perimetroC" href="#" class="btn btn-secondary">Perímetro</a>
+                        <a id="areaC" href="#" class="btn btn-secondary">Área</a>
+                    </div>
+
+            </div>
+            <div id="op" >
+                <h5>Cuadrado</h5>
+                <img src="img/cuadrado.png">
+                <div class="description">                            
+                    <a id="perimetroCu" href="#" class="btn btn-secondary">Perímetro</a>
+                    <a id="areaCu" href="#" class="btn btn-secondary">Área</a>
+                </div>
+
+        </div><br>
+        <div id="op" >
+            <h5>Rectangulo</h5>
+            <img src="img/rectangulo.png">
+            <div class="description">                            
+                <a id="perimetroR" href="#" class="btn btn-secondary">Perímetro</a>
+                <a id="areaR" href="#" class="btn btn-secondary">Área</a>
+            </div>
+
+       </div>
+       <div id="op" >
+        <h5>Triangulo</h5>
+        <img src="img/Triangulo.png">
+        <div class="description">                            
+            <a id="perimetroT" href="#" class="btn btn-secondary">Perímetro</a>
+              <a id="areaT" href="#" class="btn btn-secondary">Área</a>
+        </div>
+
+   </div>
+  </div>
+ </div>
+</div>
+</section>
+
+  <!--Circulo-->
+  <div id="perimetroCirculo" class="modal">
+    <div class="contenidoModal">
+      <span class="cerrarModalC"><i class="fa-solid fa-xmark"></i></span>
+      <h2>Perímetro</h2>
+      <div class="form-group">
+        <input id="radio" type="number" class="form-control" placeholder="Ingresa el radio del circulo">
+        <button id="calcularPC" type="button" class="btn btn-secondary">Calcular</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="areaCirculo" class="modal">
+    <div class="contenidoModal">
+      <span class="cerrarModal"><i class="fa-solid fa-xmark"></i></span>
+      <h2>Área</h2>
+      <div class="form-group">
+        <input id="radio" type="text" class="form-control" placeholder="Ingresa el radio del circulo">
+        <button id="calcularAC" type="button" class="btn btn-secondary">Calcular</button>
+      </div>
+    </div>
+  </div>
+
+  <!--Triangulo-->
+  <div id="perimetroTriangulo" class="modal">
+    <div class="contenidoModal">
+      <span class="cerrarModalT"><i class="fa-solid fa-xmark"></i></span>
+      <h2>Perímetro</h2>
+      <div class="form-group">
+        <input id="lado1" type="number" class="form-control" placeholder="Ingresa el primer lado del triangulo">
+        <input id="lado2" type="number" class="form-control" placeholder="Ingresa el segundo lado del triangulo">
+        <input id="lado3" type="number" class="form-control" placeholder="Ingresa el tercer lado del triangulo">
+        <button id="calcularPT" type="button" class="btn btn-secondary">Calcular</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="areaTriangulo" class="modal">
+    <div class="contenidoModal">
+      <span class="cerrarModalT2"><i class="fa-solid fa-xmark"></i></span>
+      <h2>Área</h2>
+      <div class="form-group">
+        <input id="baseT" type="text" class="form-control" placeholder="Ingresa la base del triangulo">
+        <input id="alturaT" type="text" class="form-control" placeholder="Ingresa la altura lado del triangulo">
+        <button id="calcularAT" type="button" class="btn btn-secondary">Calcular</button>
+      </div>
+    </div>
+  </div>
+
+  <!--Cuadrado-->
+  <div id="perimetroCuadrado" class="modal">
+    <div class="contenidoModal">
+      <span class="cerrarModalCu"><i class="fa-solid fa-xmark"></i></span>
+      <h2>Perímetro</h2>
+      <div class="form-group">
+        <input id="ladoC" type="text" class="form-control" placeholder="Ingresa el lado del cuadrado">
+        <button id="calcularPCu" type="button" class="btn btn-secondary">Calcular</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="areaCuadrado" class="modal">
+    <div class="contenidoModal">
+      <span class="cerrarModalCu2"><i class="fa-solid fa-xmark"></i></span>
+      <h2>Área</h2>
+      <div class="form-group">
+        <input id="ladoCA" type="text" class="form-control" placeholder="Ingresa el lado del cuadrado">
+        <button id="calcularACu" type="button" class="btn btn-secondary">Calcular</button>
+      </div>
+    </div>
+  </div>
+
+   <!--Rectangulo-->
+   <div id="perimetroRectangulo" class="modal">
+    <div class="contenidoModal">
+      <span class="cerrarModalR"><i class="fa-solid fa-xmark"></i></span>
+      <h2>Perímetro</h2>
+      <div class="form-group">
+        <input id="baseR" type="text" class="form-control" placeholder="Ingresa la base del Rectangulo">
+        <input id="alturaR" type="text" class="form-control" placeholder="Ingresa la altura lado del Rectangulo">
+        <button id="calcularPR" type="button" class="btn btn-secondary">Calcular</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="areaRectangulo" class="modal">
+    <div class="contenidoModal">
+      <span class="cerrarModalR2"><i class="fa-solid fa-xmark"></i></span>
+      <h2>Área</h2>
+      <div class="form-group">
+        <input id="baseAR" type="text" class="form-control" placeholder="Ingresa la base del Rectangulo">
+        <input id="alturaAR" type="text" class="form-control" placeholder="Ingresa la altura lado del Rectangulo">
+        <button id="calcularAR" type="button" class="btn btn-secondary">Calcular</button>
+      </div>
+    </div>
+  </div>
+
+               
+            </div>
+    
+        </div>  
+    </div>
+    <script src="js/eje5.js"></script>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
+
+
+    
+
+ 
+
+
+
+
+
+
+
+
+
+
+
