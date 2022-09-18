@@ -159,31 +159,29 @@ p {
 i.fas.fa-star.roja{
   color: #9C2759;
 }
-.cards{
-  display: flex;
- justify-content: space-around;
- width: 82%;
- position: absolute;
- margin-top: 1%;
+.card{
+  max-width: 37%;
+    max-height: 210px;
+    margin: 20px;
+    border-radius: 48px;
+    overflow: hidden;
+    background-color: #85c8d12a;
+    box-shadow: 0px 1px 10px rgb(132 205 231 / 57%);
+    cursor: default;
+    transition: all 400ms ease;
 }
-
-
-.cards img{
-  
-  width: 100px;
-  height: 134px;
-  overflow: hidden;
-  margin-right: 5%;
-  margin-left: 1.5rem;
-  margin-top: 1.5rem;
+.card:hover{
+  box-shadow: 5px 1px 10px rgba(126, 134, 136, 0.57);
+  transform: translate(-3%);
 }
-
-
-#op{
+.container-c{
+  margin: 2% 20% 2% 20%;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.822);
+  border-radius: 40px;
   display: flex;
-  flex-direction: column;
-  color:var(--blanco);
-  width: 30%;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .description{
@@ -334,8 +332,8 @@ a:hover {
 
 
 img {
-  vertical-align: middle;
-  border-style: none;
+  max-width: 50%;
+  
 }
 
 svg {

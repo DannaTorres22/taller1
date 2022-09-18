@@ -10,12 +10,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Ejercicios JavaScript</title>
-    
     <!-- icon-->
     <link rel="apple-touch-icon" sizes="150x150" href="img/logo.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
     
+
+    <title>Ejercicios JavaScript</title>
 
     <!-- Funtes-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -98,10 +98,10 @@
             </li>
             <!-- Formulario -->
             <li class="nav-item">
-              <a class="nav-link" href="ejercicio6.html">
-                <i class="fa-solid fa-rectangle-wide"></i>
-                  <span>Formulario</span></a>
-          </li>
+                <a class="nav-link" href="ejercicio6.html">
+                  <i class="fa-solid fa-rectangle-wide"></i>
+                    <span>Formulario</span></a>
+            </li>
            <!-- Divider -->
            <hr class="sidebar-divider">
 
@@ -112,53 +112,66 @@
             </li>
 
         </ul>
-        <section class="carts">
-          <div class="container">
-            <h1>Nuestros usuarios dicen...</h1>
-        <div class="cards"> 
 
-            <div id="op" >
-                    <h5>Circulo</h5>
-                    <img src="img/circulo.png">
-                    <div class="description">                            
-                        <a id="perimetroC" href="#" class="btn btn-secondary">Perímetro</a>
-                        <a id="areaC" href="#" class="btn btn-secondary">Área</a>
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- contenido principal -->
+            <div id="content">
+              <div class="container-c">
+                <h1>Figuras Geometricas</h1>
+                <div class="card">
+                    <figure>
+                        <img src="img/circulo.png">
+                    </figure>
+                    <div class="contenidoo">
+                        <h2>Circulo</h2>
+                        <div class="description">                            
+                            <a id="perimetroC" href="#" class="btn btn-secondary">Perímetro</a>
+                            <a id="areaC" href="#" class="btn btn-secondary">Área</a>
+                        </div>
+                        
                     </div>
-
-            </div>
-            <div id="op" >
-                <h5>Cuadrado</h5>
-                <img src="img/cuadrado.png">
-                <div class="description">                            
-                    <a id="perimetroCu" href="#" class="btn btn-secondary">Perímetro</a>
-                    <a id="areaCu" href="#" class="btn btn-secondary">Área</a>
                 </div>
+                <div class="card">
+                    <figure>
+                        <img src="img/cuadrado.png">
+                    </figure>
+                    <div class="contenidoo">
+                        <h2>Cuadrado</h2>
+                        <div class="description">                            
+                            <a id="perimetroC" href="#" class="btn btn-secondary">Perímetro</a>
+                            <a id="areaC" href="#" class="btn btn-secondary">Área</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="img/rectangulo.png">
+                    </figure>
+                    <div class="contenidoo">
+                        <h2>Rectangulo</h2>
+                        <div class="description">                            
+                            <a id="perimetroC" href="#" class="btn btn-secondary">Perímetro</a>
+                            <a id="areaC" href="#" class="btn btn-secondary">Área</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="img/Triangulo.png">
+                    </figure>
+                    <div class="contenidoo">
+                        <h2>Triangulo</h2>
+                        <div class="description">                            
+                            <a id="perimetroC" href="#" class="btn btn-secondary">Perímetro</a>
+                            <a id="areaC" href="#" class="btn btn-secondary">Área</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
 
-        </div><br>
-        <div id="op" >
-            <h5>Rectangulo</h5>
-            <img src="img/rectangulo.png">
-            <div class="description">                            
-                <a id="perimetroR" href="#" class="btn btn-secondary">Perímetro</a>
-                <a id="areaR" href="#" class="btn btn-secondary">Área</a>
             </div>
-
-       </div>
-       <div id="op" >
-        <h5>Triangulo</h5>
-        <img src="img/Triangulo.png">
-        <div class="description">                            
-            <a id="perimetroT" href="#" class="btn btn-secondary">Perímetro</a>
-              <a id="areaT" href="#" class="btn btn-secondary">Área</a>
-        </div>
-
-   </div>
-  </div>
- </div>
-</div>
-</section>
-
-  <!--Circulo-->
+             <!--Circulo-->
   <div id="perimetroCirculo" class="modal">
     <div class="contenidoModal">
       <span class="cerrarModalC"><i class="fa-solid fa-xmark"></i></span>
@@ -254,13 +267,17 @@
       </div>
     </div>
   </div>
+        </div>
+        
 
+                </div>
                
             </div>
     
         </div>  
     </div>
     <script src="js/eje5.js"></script>
+
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -284,16 +301,4 @@
 
 
     
-
- 
-
-
-
-
-
-
-
-
-
-
-
+    
