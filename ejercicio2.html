@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ejercicios JavaScript</title>
+    
+    <!-- icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="150x150" href="img/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+    
+
+    <!-- Funtes-->
+    <link href="https://fonts.googleapis.com/css2?family=Niramit:wght@500&display=swap" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- estilos-->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+
+
+
+</head>
+
+<body id="page-top">
+
+    <!-- contenedor -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Ejercicios <sup>JavaScript</sup></div>
+            </a>
+
+            <!-- Dividir -->
+            <hr class="sidebar-divider my-0">
+
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Ejercicios JavaScript</span></a>
+            </li>
+
+            <!-- Dividir -->
+            <hr class="sidebar-divider">
+
+    
+            <div class="sidebar-heading">
+                
+            </div>
+
+          <!-- Funciones de Texto -->
+            <li class="nav-item">
+                <a class="nav-link" href="ejercicio1.html">
+                  <i class="fa-sharp fa-solid fa-comment"></i>
+                    <span>Funciones de Texto</span></a>
+            </li>
+
+            <!--Conversor de Temperatura-->
+            <li class="nav-item">
+                <a class="nav-link" href="ejercicio2.html">
+                  <i class="fa-sharp fa-solid fa-temperature-three-quarters"></i>
+                    <span>Conversor de Temperatura</span></a>
+            </li>
+
+            <!-- Triangulo -->
+            <li class="nav-item">
+                <a class="nav-link" href="ejercicio3.html">
+                  <i class="fa-regular fa-triangle"></i>
+                    <span>Triangulo</span></a>
+            </li>
+             <!-- Instructores -->
+             <li class="nav-item">
+                <a class="nav-link" href="ejercicio4.html">
+                  <i class="fa-solid fa-user"></i>
+                    <span>Instructores</span></a>
+            </li>
+            <!-- Figuras -->
+            <li class="nav-item">
+                <a class="nav-link" href="ejercicio5.html">
+                  <i class="fa-solid fa-rectangle-wide"></i>
+                    <span>Figuras Geometricas</span></a>
+            </li>
+            <!-- Formulario -->
+            <li class="nav-item">
+                <a class="nav-link" href="ejercicio6.html">
+                  <i class="fa-solid fa-rectangle-wide"></i>
+                    <span>Formulario</span></a>
+            </li>
+           <!-- Divider -->
+           <hr class="sidebar-divider">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                  <i class="fa-solid fa-leaf"></i>
+                    <span>Salir</span></a>
+            </li>
+
+        </ul>
+
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- contenido principal -->
+            <div id="content">
+               
+                <div class="container-fluid">
+                        <section class="form-tem">
+                            <form>
+                                <div class="container">
+                                
+                                        
+                                        <h1>Conversor de Temperatura</h1>
+                                        <hr>
+                                        <input id="temperatura" type="number"><br>
+                                        
+                                        
+                                        <select class="form-control" id="opciones">
+                                            <option value="">Vas a convertir de</option>
+                                            <option id="Fahrenheit" value="1">Fahrenheit</option>
+                                            <option id="Celsius" value="2">Celsius</option>
+                                            <option id="Kelvin" value="3">Kelvin</option>
+                                        </select>
+                                    
+                                    <div class="form-group">
+                                        <select class="form-control" id="opciones2">
+                                            <option value="">Deseas convertir a</option>
+                                            <option id="FahrenheitQ" value="4">Fahrenheit</option>
+                                            <option id="CelsiusQ" value="5">Celsius</option>
+                                            <option id="KelvinQ" value="6">Kelvin</option>
+                                        </select>
+                                        <button id="calcular" class="btn btn-secondary">Calcular</button>
+                                        
+                                        <br><br>
+                                    </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+               
+            </div>
+    
+        </div>  
+    </div>
+    <script src="js/eje2.js"></script>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
+
+
+    
+
+ 
+
+
+
+
+
+
+
+
+
+
+
