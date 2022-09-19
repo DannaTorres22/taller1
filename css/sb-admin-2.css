@@ -267,7 +267,6 @@ main {
 #btn-modal:checked~.modal .contenedor {
   transform: translateY(0%);
 }
-
 .contenedor header {
   padding: 10px;
   background: linear-gradient(49.54deg, rgba(79, 156, 224, 0.863) 2.89%, rgba(11, 56, 96, 0.89) 80.34%);
