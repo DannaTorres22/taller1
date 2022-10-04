@@ -20,6 +20,7 @@ longitud.addEventListener('click', function(){
     window.alert(`La longitud de la palabra "${texto}" es: ` + texto.length);
 });
 
+
 //mayusculas
 let mayusculas = document.getElementById('mayusculas');
 mayusculas.addEventListener('click', function(){
